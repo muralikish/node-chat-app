@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/muralikish/node-chat-app/issues"
   },
-  "homepage": "https://github.com/muralikish/node-chat-app#readme"
+  "homepage": "https://github.com/muralikish/node-chat-app#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  }
 }
