@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/muralikish/node-chat-app.git"
   },
+  "engines": {
+    "node": "10.15.0"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
