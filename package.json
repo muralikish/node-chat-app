@@ -22,12 +22,13 @@
   },
   "homepage": "https://github.com/muralikish/node-chat-app#readme",
   "dependencies": {
+    "callback": "0.0.1",
     "express": "^4.16.4",
     "socket.io": "^2.2.0"
   },
   "devDependencies": {
     "expect": "^24.1.0",
     "mocha": "^5.2.0",
-    "nodemon": "^1.18.0"
+    "nodemon": "^1.18.10"
   }
 }
