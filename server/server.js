@@ -28,9 +28,9 @@ io.on('connection', (socket) => {
     //   createdAt: new Date().getTime()
     // });
   });
-  
+
   socket.on('createLocationMessage', (coords) => {
-    io.emit('newMessage', gM.generateMessage('Admin', `${coords.latitude}, ${coords.longitude}`));
+    io.emit('newLocationMessage', gM.generateLocationMessage('Admin', coords.latitude, coords.longitude));
   });
 
   socket.on('disconnect', () => {
