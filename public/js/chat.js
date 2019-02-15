@@ -42,7 +42,7 @@ var socket = io();
     
       jQuery('#users').html(ol);
     });
-    
+
    /* socket.on('newMessage', function (message) {
         var formattedTime = moment(message.createdAt).format('h:mm a');
         var li = jQuery('<li></li>');
@@ -92,8 +92,7 @@ var socket = io();
       var messageTextbox = jQuery('[name=message]');
 
       socket.emit('createMessage', {
-        from: 'User',
-        text: messageTextbox.val()
+         text: messageTextbox.val()
       }, function () {
         messageTextbox.val('');
       });
